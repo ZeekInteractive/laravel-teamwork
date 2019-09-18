@@ -1,14 +1,8 @@
 {
-  "name": "squarebit/dovetail",
-  "description": "A Laravel 5 wrapper for the Teamwork API",
+  "name": "zeek/laravel-teamwork",
+  "description": "A Laravel wrapper for the Teamwork API",
   "type": "library",
   "license": "CC-BY-NC-4.0",
-  "authors": [
-    {
-      "name": "Zachary Schuessler",
-      "email": "zlschuessler@gmail.com"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "SquareBit\\Dovetail\\": "src/",
@@ -21,7 +15,7 @@
     }
   },
   "require": {
-    "illuminate/support": "5.3.*||5.4.*||5.5.*",
+    "illuminate/support": "5.3.*||5.4.*||5.5.*|6.*",
     "guzzlehttp/guzzle": "~6.0"
   },
   "extra": {
